@@ -24,12 +24,22 @@ export const useData = ( initialState = [] ) => {
             });
         } else if ( cursor == 9 ) {
 
-            setdata({
+            ( value === answer )
+
+            ? setdata({
+                ...data,
+                points: points + 1,
+                finished: true,
+                cursor: 0,
+                winner: ( points >= 7 ) ? true : false
+            })
+
+            : setdata({
                 ...data,
                 finished: true,
                 cursor: 0,
                 winner: ( points >= 7 ) ? true : false
-            });
+            })
 
         }
 

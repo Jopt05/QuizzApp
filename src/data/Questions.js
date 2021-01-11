@@ -12,7 +12,7 @@ export const Questions = [
     {
         question: 'Which boxer was known as “The Greatest” and “The People’s Champion”?',
         answers: ['Muhammad Ali', 'Sugar Ray Robinson', 'Joe Louis', 'Michael Phelps'],
-        rightAnswer: 0
+        rightAnswer: 'Muhammad Ali'
     },
     {
         question: 'What’s the shortcut for the “copy” function on most computers?',
