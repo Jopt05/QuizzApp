@@ -1,0 +1,34 @@
+.Button {
+    color: lightseagreen;
+    padding: 15px 25px;
+    border-radius: 15px;
+    border: .5px solid lightseagreen;
+    background-color: transparent;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color, color .2s ease-in-out;
+}
+
+.Button:focus {
+    outline: none;
+}
+
+.Button:hover {
+    background-color: lightseagreen;
+    color: black;
+}
+
+.Button:not(:last-child) {
+    margin-right: 35px;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    
+    .Button:not(:last-child) {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+}

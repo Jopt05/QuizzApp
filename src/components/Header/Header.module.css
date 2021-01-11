@@ -1,0 +1,8 @@
+.Header {
+    display: flex;
+    height: 80px;
+}
+
+.Header h1 {
+    padding-left: 20px;
+}
